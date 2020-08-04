@@ -1,0 +1,52 @@
+{
+  "name": "project_web",
+  "version": "1.0.0",
+  "description": "webpack+react+bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "gkx",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "bootstrap": "^3.4.1",
+    "css-loader": "^4.2.0",
+    "eslint": "^7.6.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.20.5",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less-loader": "^6.2.0",
+    "node-notifier": "^7.0.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-webpack-plugin": "^2.1.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.0.0-beta.0"
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard"
+    ]
+  }
+}
